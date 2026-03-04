@@ -19,7 +19,7 @@
     "claude",
     "api"
   ],
-  "author": "",
+  "author": "LiZhuBin",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

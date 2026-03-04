@@ -20,7 +20,7 @@ npm install -g gumroad-mcp
 ### From source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gumroad-mcp.git
+git clone https://github.com/LiZhuBin/gumroad-mcp.git
 cd gumroad-mcp
 npm install
 npm run build
