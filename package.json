@@ -1,0 +1,33 @@
+{
+  "name": "gumroad-mcp",
+  "version": "1.0.0",
+  "description": "Gumroad MCP Server - Integrate Gumroad API with Claude",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "gumroad-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "gumroad",
+    "claude",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.2"
+  }
+}
